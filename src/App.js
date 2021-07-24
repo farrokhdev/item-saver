@@ -65,6 +65,7 @@ function App() {
   const clearAlert = () => {
     showAlert(true, "the list is empty", "danger");
     setItems("");
+    setEditing(false);
   };
   const deleteItem = (id) => {
     showAlert(true, "item is deleted", "danger");
